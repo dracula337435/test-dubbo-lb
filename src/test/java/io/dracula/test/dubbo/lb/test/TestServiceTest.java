@@ -19,7 +19,7 @@ public class TestServiceTest {
 
     private static Logger logger = LoggerFactory.getLogger(TestServiceTest.class);
 
-    @Reference
+    @Reference(group = "*")
     private TestService testService;
 
     @Test

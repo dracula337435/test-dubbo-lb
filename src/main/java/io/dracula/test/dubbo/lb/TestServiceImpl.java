@@ -7,7 +7,7 @@ import org.slf4j.LoggerFactory;
 /**
  * @author dk
  */
-@Service
+@Service(group = "${group:}")
 public class TestServiceImpl implements TestService {
 
     private static Logger logger = LoggerFactory.getLogger(TestServiceImpl.class);
